@@ -12,5 +12,47 @@ a {
 }
 
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
+}
+
+.mainContainer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Inspiration', cursive;
+  font-size: 3rem;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  position: relative;
+  flex: 0 0 100%;
+}
+
+.btn-payment {
+  padding: 4px 8px;
+  border: solid black 1px;
+  background-color: greenyellow;
+  border-radius: 8px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.btn-payment:hover {
+  background-image: url('https://image.shutterstock.com/image-illustration/money-background-screen-full-dollars-260nw-605536394.jpg');
+  font-size: 5rem;
+  color: yellow;
 }

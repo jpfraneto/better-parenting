@@ -1,0 +1,11 @@
+.mainContainer {
+  width: 888px;
+  height: 222px;
+  border-radius: 8px;
+  background-color: greenyellow;
+  border: solid black 1px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

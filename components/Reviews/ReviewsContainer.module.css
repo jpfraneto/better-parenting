@@ -1,0 +1,5 @@
+.container {
+  max-width: 888px;
+  display: flex;
+  flex-wrap: wrap;
+}

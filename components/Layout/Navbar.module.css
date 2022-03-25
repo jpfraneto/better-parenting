@@ -1,0 +1,32 @@
+.navbar {
+  padding: 0 20px;
+  width: 100%;
+  height: 44px;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.logoImage {
+  width: 33px;
+  height: 33px;
+  border-radius: 100%;
+  background-color: red;
+}
+
+.navElementsContainer {
+  list-style-type: none;
+  display: flex;
+}
+
+.navElement {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.navElement:hover {
+  font-weight: bold;
+  font-size: 0.985em;
+}

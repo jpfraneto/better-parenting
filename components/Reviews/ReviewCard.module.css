@@ -1,0 +1,22 @@
+.reviewCardContainer {
+  border: solid black 1px;
+  width: 399px;
+  margin: 8px;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.reviewCardContainer:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.2);
+}
+
+.reviewText {
+  text-align: left;
+}
+
+.reviewAuthor {
+  text-align: end;
+}

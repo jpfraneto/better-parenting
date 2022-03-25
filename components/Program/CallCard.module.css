@@ -1,0 +1,11 @@
+.container {
+  border: solid black 1px;
+  padding: 4px;
+  width: 444px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.callNumberContainer {
+  font-size: 2rem;
+}
