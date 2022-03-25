@@ -15,11 +15,14 @@ export default function Home() {
             Why figure it out alone, if you can leverage the collective power of
             those who are going through the same process, all over the world?
           </h2>
-          <div className={styles.registerBtnContainer}>
-            <Link href='/register'>
-              <a className={styles.takeActionBtn}>Register</a>
-            </Link>
-          </div>
+          <Link href='/register'>
+            <div className={styles.registerBtnContainer}>
+              <div className={styles.takeActionBtn}>
+                <h2>Register</h2>
+                <h6>66 of 88 spots available</h6>
+              </div>
+            </div>
+          </Link>
         </div>
       </section>
       <section className={styles.featuresSection}>

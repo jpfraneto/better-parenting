@@ -18,17 +18,23 @@
   margin-top: 11px;
 }
 
+.registerBtnContainer h2 {
+}
+
 .takeActionBtn {
   width: 222px;
-  height: 55px;
-  margin-top: 33px;
+  margin: 33px auto 0;
   font-weight: bold;
   font-size: 2rem;
   border-radius: 20px;
   border: solid black 1px;
   background-color: peachpuff;
   cursor: pointer;
-  padding: 10px 22px;
+}
+
+.takeActionBtn:hover {
+  background-color: black;
+  color: white;
 }
 
 .landingTextContainer h2 {
@@ -45,6 +51,15 @@
 
 .landingTextContainer h2:nth-child(3) {
   color: blue;
+}
+
+.takeActionBtn h2 {
+  color: black;
+  margin: 0;
+}
+
+.takeActionBtn h6 {
+  font-size: 0.9rem;
 }
 
 .featuresSection {
