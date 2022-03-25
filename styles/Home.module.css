@@ -99,7 +99,7 @@
 
 .emotionalLaborSection {
   height: 100vh;
-  width: 100%;
+  max-width: 100%;
   background-image: url('/images/emotional-labor.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -126,11 +126,12 @@
     rgba(121, 233, 90, 1) 35%,
     rgba(218, 227, 214, 1) 100%
   );
+
   padding: 0 auto;
 }
 
 .footerContainer {
-  height: 111px;
+  min-height: 133px;
   background-color: black;
   color: white;
   display: flex;
@@ -141,8 +142,8 @@
 }
 
 @media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+  .emotionalLaborSection .textContainer {
+    font-size: 2rem;
+    padding-left: 0;
   }
 }

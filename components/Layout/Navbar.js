@@ -5,7 +5,7 @@ export default function Navbar({}) {
   return (
     <nav className={styles.navbar}>
       <div>
-        <div className={styles.logoImage}></div>
+        <div className={styles.logoImage}>Better Parenting</div>
       </div>
       <ul className={styles.navElementsContainer}>
         <Link href='/about' passHref>
